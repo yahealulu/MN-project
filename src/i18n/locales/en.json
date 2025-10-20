@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "whyUs": "Why Choose Us",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Building the Future with Sustainable Alternatives",
+    "subtitle": "Innovative eco-friendly concrete alternatives for modern construction",
+    "cta1": "Explore Solutions",
+    "cta2": "Contact Us"
+  },
+  "about": {
+    "title": "About Al-Maiz & Al-Nasser",
+    "subtitle": "Leading the Sustainable Construction Revolution",
+    "description": "We are pioneers in developing eco-friendly alternatives to traditional concrete. Our innovative materials reduce environmental impact while maintaining superior strength and durability for modern construction projects.",
+    "years": "Years of Excellence",
+    "projects": "Completed Projects",
+    "tons": "CO₂ Saved (Tons)"
+  },
+  "products": {
+    "title": "Our Solutions",
+    "subtitle": "Innovative Materials for Sustainable Construction",
+    "product1": {
+      "name": "EcoBlock™",
+      "description": "High-strength sustainable building blocks with 40% lower carbon footprint"
+    },
+    "product2": {
+      "name": "GreenMix™",
+      "description": "Revolutionary concrete alternative using recycled industrial materials"
+    },
+    "product3": {
+      "name": "EarthPave™",
+      "description": "Permeable paving solution for roads and infrastructure"
+    }
+  },
+  "whyUs": {
+    "title": "Why Choose Us",
+    "subtitle": "The Sustainable Choice for Modern Construction",
+    "reason1": {
+      "title": "Eco-Friendly Innovation",
+      "description": "Our materials reduce carbon emissions by up to 60% compared to traditional concrete"
+    },
+    "reason2": {
+      "title": "Superior Strength",
+      "description": "Industry-leading durability and structural integrity for all applications"
+    },
+    "reason3": {
+      "title": "Cost Effective",
+      "description": "Competitive pricing with long-term savings on maintenance and sustainability"
+    },
+    "reason4": {
+      "title": "Expert Support",
+      "description": "Dedicated technical team providing guidance throughout your project"
+    }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Building a Sustainable Future Across Industries",
+    "all": "All",
+    "buildings": "Buildings",
+    "roads": "Roads",
+    "infrastructure": "Infrastructure"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Trusted by Leading Construction Companies"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to Build Sustainably?",
+    "name": "Your Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Your Message",
+    "send": "Send Message",
+    "info": "Contact Information",
+    "address": "Riyadh, Saudi Arabia",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again."
+  },
+  "footer": {
+    "description": "Leading provider of eco-friendly concrete alternatives for sustainable construction.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "connect": "Connect With Us",
+    "rights": "All rights reserved."
+  }
+}
