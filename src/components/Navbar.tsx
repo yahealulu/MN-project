@@ -44,7 +44,7 @@ const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-background/95 backdrop-blur-md shadow-strong' : 'bg-transparent'
+       isScrolled ? 'bg-background/95 backdrop-blur-md shadow-strong' : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto px-4">
@@ -55,7 +55,7 @@ const Navbar = () => {
             onClick={() => scrollToSection('#hero')}
             whileHover={{ scale: 1.05 }}
           >
-            <img src={logo} alt="Al-Maiz & Al-Nasser" className="h-12 w-auto" />
+            <img src={logo} alt="Al-Maiz & Al-Nasser" className="h-20 w-auto" />
           </motion.div>
 
           {/* Desktop Navigation */}
