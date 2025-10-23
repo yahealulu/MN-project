@@ -25,6 +25,7 @@ const Navbar = () => {
   const navLinks = [
     { key: 'home', href: '#hero' },
     { key: 'about', href: '#about' },
+    { key: 'fiberglass', href: '#fiberglass' },
     { key: 'products', href: '#products' },
     { key: 'whyUs', href: '#why-us' },
     { key: 'projects', href: '#projects' },

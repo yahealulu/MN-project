@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "About Us",
+    "fiberglass": "Fiberglass",
     "products": "Products",
     "whyUs": "Why Choose Us",
     "projects": "Projects",
@@ -16,10 +17,39 @@
   "about": {
     "title": "About Al-Maiz & Al-Nasser",
     "subtitle": "Leading the Fiber Glass Trading Industry",
-    "description": "شركة رائدة في تجارة الفايبر غلاس بديل الحديد المسلح، الذي يتميز بخفته العالية ومقاومته للتآكل والصدأ، مما يجعله خيارًا مثاليًا للبناء الحديث والمشاريع طويلة الأمد. كما نختص في تجارة الألمنيوم واستخداماته المتنوعة في المجالات الإنشائية والصناعية، لنقدم لعملائنا حلولًا متكاملة تجمع بين الجودة، الابتكار، والاستدامة",
+    "description": "A leading company in fiberglass trading, an alternative to reinforced steel, which is characterized by its high lightness, corrosion resistance, and rust resistance, making it an ideal option for modern construction and long-term projects. We also specialize in aluminum trading and its various applications in construction and industrial fields, providing our customers with comprehensive solutions that combine quality, innovation, and sustainability.",
     "years": "Years of Excellence",
     "projects": "Completed Projects",
     "tons": "CO₂ Saved (Tons)"
+  },
+  "fiberglass": {
+    "title": "Why Choose Fiberglass",
+    "subtitle": "Revolutionary Material for Modern Construction",
+    "description": "Fiberglass is transforming the construction industry with its unique properties and versatile applications. Discover why it's the preferred choice for forward-thinking architects and engineers.",
+    "advantage1": {
+      "title": "Lightweight Strength",
+      "description": "80% lighter than steel while maintaining superior strength-to-weight ratio"
+    },
+    "advantage2": {
+      "title": "Corrosion Resistance",
+      "description": "Impervious to rust, chemicals, and environmental degradation"
+    },
+    "advantage3": {
+      "title": "Electrical Insulation",
+      "description": "Non-conductive properties make it ideal for electrical applications"
+    },
+    "advantage4": {
+      "title": "Design Flexibility",
+      "description": "Can be molded into complex shapes and customized profiles"
+    },
+    "advantage5": {
+      "title": "Thermal Insulation",
+      "description": "Excellent thermal properties reduce energy costs"
+    },
+    "advantage6": {
+      "title": "Long-term Durability",
+      "description": "Extended lifespan with minimal maintenance requirements"
+    }
   },
   "products": {
     "title": "Our Solutions",

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/sections/Hero';
 import About from '@/components/sections/About';
+import Fiberglass from '@/components/sections/Fiberglass';
 import Products from '@/components/sections/Products';
 import WhyUs from '@/components/sections/WhyUs';
 import Projects from '@/components/sections/Projects';
@@ -27,6 +28,7 @@ const Index = () => {
           {!isLoading && (
             <>
               <About />
+              <Fiberglass />
               <Products />
               <WhyUs />
               <Projects />
