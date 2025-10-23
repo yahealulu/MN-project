@@ -8,58 +8,58 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Building the Future with Sustainable Alternatives",
-    "subtitle": "Innovative eco-friendly concrete alternatives for modern construction",
+    "title": "Leading Fiber Glass Trading Company",
+    "subtitle": "Specialists in fiberglass and aluminum trading for modern construction",
     "cta1": "Explore Solutions",
     "cta2": "Contact Us"
   },
   "about": {
     "title": "About Al-Maiz & Al-Nasser",
-    "subtitle": "Leading the Sustainable Construction Revolution",
-    "description": "We are pioneers in developing eco-friendly alternatives to traditional concrete. Our innovative materials reduce environmental impact while maintaining superior strength and durability for modern construction projects.",
+    "subtitle": "Leading the Fiber Glass Trading Industry",
+    "description": "شركة رائدة في تجارة الفايبر غلاس بديل الحديد المسلح، الذي يتميز بخفته العالية ومقاومته للتآكل والصدأ، مما يجعله خيارًا مثاليًا للبناء الحديث والمشاريع طويلة الأمد. كما نختص في تجارة الألمنيوم واستخداماته المتنوعة في المجالات الإنشائية والصناعية، لنقدم لعملائنا حلولًا متكاملة تجمع بين الجودة، الابتكار، والاستدامة",
     "years": "Years of Excellence",
     "projects": "Completed Projects",
     "tons": "CO₂ Saved (Tons)"
   },
   "products": {
     "title": "Our Solutions",
-    "subtitle": "Innovative Materials for Sustainable Construction",
+    "subtitle": "Fiber Glass and Aluminum Solutions for Modern Construction",
     "product1": {
-      "name": "EcoBlock™",
-      "description": "High-strength sustainable building blocks with 40% lower carbon footprint"
+      "name": "Fiber Glass Bars",
+      "description": "High-strength fiberglass reinforcement bars with corrosion resistance"
     },
     "product2": {
-      "name": "GreenMix™",
-      "description": "Revolutionary concrete alternative using recycled industrial materials"
+      "name": "Aluminum Profiles",
+      "description": "Durable aluminum profiles for construction and industrial applications"
     },
     "product3": {
-      "name": "EarthPave™",
-      "description": "Permeable paving solution for roads and infrastructure"
+      "name": "Composite Panels",
+      "description": "Lightweight composite panels for modern architectural solutions"
     }
   },
   "whyUs": {
     "title": "Why Choose Us",
-    "subtitle": "The Sustainable Choice for Modern Construction",
+    "subtitle": "The Premium Choice for Fiber Glass and Aluminum Trading",
     "reason1": {
-      "title": "Eco-Friendly Innovation",
-      "description": "Our materials reduce carbon emissions by up to 60% compared to traditional concrete"
+      "title": "Quality Assurance",
+      "description": "Premium quality fiberglass and aluminum products from trusted suppliers"
     },
     "reason2": {
-      "title": "Superior Strength",
-      "description": "Industry-leading durability and structural integrity for all applications"
+      "title": "Technical Expertise",
+      "description": "Industry experts providing guidance for your fiberglass and aluminum needs"
     },
     "reason3": {
-      "title": "Cost Effective",
-      "description": "Competitive pricing with long-term savings on maintenance and sustainability"
+      "title": "Competitive Pricing",
+      "description": "Best market prices with bulk order discounts"
     },
     "reason4": {
-      "title": "Expert Support",
-      "description": "Dedicated technical team providing guidance throughout your project"
+      "title": "Reliable Delivery",
+      "description": "Timely delivery across Syria with secure packaging"
     }
   },
   "projects": {
     "title": "Our Projects",
-    "subtitle": "Building a Sustainable Future Across Industries",
+    "subtitle": "Building a Stronger Future with Fiber Glass Solutions",
     "all": "All",
     "buildings": "Buildings",
     "roads": "Roads",
@@ -71,19 +71,19 @@
   },
   "contact": {
     "title": "Get in Touch",
-    "subtitle": "Ready to Build Sustainably?",
+    "subtitle": "Ready to Enhance Your Projects?",
     "name": "Your Name",
     "email": "Email Address",
     "phone": "Phone Number",
     "message": "Your Message",
     "send": "Send Message",
     "info": "Contact Information",
-    "address": "Riyadh, Saudi Arabia",
+    "address": "Syria, Damascus, Al-Shoulan, Habrabi 4th Street, Samiramis Lane, Building No. 5, 2nd Floor",
     "success": "Message sent successfully!",
     "error": "Failed to send message. Please try again."
   },
   "footer": {
-    "description": "Leading provider of eco-friendly concrete alternatives for sustainable construction.",
+    "description": "Leading provider of fiberglass and aluminum solutions for modern construction.",
     "quickLinks": "Quick Links",
     "services": "Services",
     "connect": "Connect With Us",

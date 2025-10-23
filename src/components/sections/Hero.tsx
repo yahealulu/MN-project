@@ -69,7 +69,7 @@ const Hero = () => {
                 className="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 border border-accent/30"
               >
                 <Sparkles className="w-4 h-4 text-accent" />
-                <span className="text-sm font-medium text-accent">Sustainable Innovation</span>
+                <span className="text-sm font-medium text-accent">{t('hero.subtitle')}</span>
               </motion.div>
 
               <motion.h1

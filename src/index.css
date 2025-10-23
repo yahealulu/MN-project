@@ -89,15 +89,21 @@ All colors MUST be HSL.
 @layer base {
   * {
     @apply border-border;
+    /* Prevent horizontal scrolling */
+    max-width: 100%;
   }
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
     transition: background-color 0.3s ease, color 0.3s ease;
+    /* Prevent horizontal scrolling */
+    overflow-x: hidden;
   }
 
   html {
     scroll-behavior: smooth;
+    /* Prevent horizontal scrolling */
+    overflow-x: hidden;
   }
 }
 

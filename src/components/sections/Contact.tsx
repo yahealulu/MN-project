@@ -34,7 +34,7 @@ const Contact = () => {
 
   const contactInfo = [
     { icon: Mail, label: 'info@almaizalnasser.com' },
-    { icon: Phone, label: '+966 XX XXX XXXX' },
+    { icon: Phone, label: '+963981861672', href: 'https://wa.me/963981861672' },
     { icon: MapPin, label: t('contact.address') },
   ];
 
@@ -69,7 +69,18 @@ const Contact = () => {
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-glow group-hover:scale-110 transition-transform">
                     <info.icon className="w-6 h-6 text-primary-foreground" />
                   </div>
-                  <span className="text-lg text-muted-foreground">{info.label}</span>
+                  {info.href ? (
+                    <a 
+                      href={info.href} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-lg text-muted-foreground hover:text-accent transition-colors"
+                    >
+                      {info.label}
+                    </a>
+                  ) : (
+                    <span className="text-lg text-muted-foreground">{info.label}</span>
+                  )}
                 </div>
               ))}
             </div>

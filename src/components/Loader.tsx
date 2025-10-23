@@ -10,7 +10,7 @@ const Loader = ({ onComplete }: { onComplete?: () => void }) => {
       if (onComplete) {
         onComplete();
       }
-    }, 2000);
+    }, 3000); // Extended to 3 seconds
 
     return () => clearTimeout(timer);
   }, [onComplete]);
@@ -21,7 +21,7 @@ const Loader = ({ onComplete }: { onComplete?: () => void }) => {
     <motion.div
       initial={{ opacity: 1 }}
       animate={{ opacity: 0 }}
-      transition={{ duration: 0.5, delay: 1.5 }}
+      transition={{ duration: 1, delay: 2 }} // Extended delay to 2 seconds
       className="fixed inset-0 z-50 flex items-center justify-center bg-background"
       onAnimationComplete={() => {
         setIsVisible(false);
@@ -34,13 +34,13 @@ const Loader = ({ onComplete }: { onComplete?: () => void }) => {
         <motion.div
           initial={{ scale: 0, rotate: 0 }}
           animate={{ scale: 1, rotate: 360 }}
-          transition={{ duration: 1, ease: "easeOut" }}
+          transition={{ duration: 1.5, ease: "easeOut" }} // Extended duration
           className="w-32 h-32 rounded-full bg-gradient-to-br from-primary via-accent to-primary shadow-glow"
         />
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.8, delay: 0.7 }} // Adjusted delays
           className="absolute inset-0 flex items-center justify-center"
         >
           <div className="w-24 h-24 rounded-full bg-background" />
@@ -48,7 +48,7 @@ const Loader = ({ onComplete }: { onComplete?: () => void }) => {
         <motion.div
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
-          transition={{ duration: 0.5, delay: 0.8 }}
+          transition={{ duration: 0.8, delay: 1 }} // Adjusted delays
           className="absolute inset-0 flex items-center justify-center"
         >
           <div className="text-2xl font-bold text-gradient">M&N</div>
