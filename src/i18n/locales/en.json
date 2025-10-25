@@ -108,7 +108,7 @@
     "message": "Your Message",
     "send": "Send Message",
     "info": "Contact Information",
-    "address": "Syria, Damascus, Al-Shoulan, Habrabi 4th Street, Samiramis Lane, Building No. 5, 2nd Floor",
+    "address": "Syria, Damascus, Al-Shaalan, Habrabi 4th Street, Samiramis Lane, Building No. 5, 2nd Floor",
     "success": "Message sent successfully!",
     "error": "Failed to send message. Please try again."
   },
@@ -117,6 +117,11 @@
     "quickLinks": "Quick Links",
     "services": "Services",
     "connect": "Connect With Us",
+    "contact": "Contact",
+    "contactNumbers": [
+      { "number": "00963981861672", "name": "Nasser Hamadi" },
+      { "number": "00963951318707", "name": "Maizar Al-Sarab" }
+    ],
     "rights": "All rights reserved."
   }
 }

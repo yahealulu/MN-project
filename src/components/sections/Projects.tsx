@@ -17,12 +17,34 @@ const Projects = () => {
   ];
 
   const projects = [
-    { id: 1, category: 'buildings', title: 'Green Tower Complex', location: 'Riyadh' },
-    { id: 2, category: 'roads', title: 'Sustainable Highway', location: 'Jeddah' },
-    { id: 3, category: 'infrastructure', title: 'Eco Bridge Project', location: 'Dammam' },
-    { id: 4, category: 'buildings', title: 'Smart Office Park', location: 'Riyadh' },
-    { id: 5, category: 'roads', title: 'Urban Bike Path', location: 'Jeddah' },
-    { id: 6, category: 'infrastructure', title: 'Water Treatment Facility', location: 'Mecca' },
+    { 
+      id: 1, 
+      category: 'buildings', 
+      title: 'Green Tower Complex', 
+      location: 'Riyadh',
+      image: '/images/Green tower.jpg'
+    },
+    { 
+      id: 2, 
+      category: 'roads', 
+      title: 'Sustainable Highway', 
+      location: 'Jeddah',
+      image: '/images/Highway.jpg'
+    },
+    { 
+      id: 4, 
+      category: 'buildings', 
+      title: 'Smart Office Park', 
+      location: 'Riyadh',
+      image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&h=600&q=80'
+    },
+    { 
+      id: 6, 
+      category: 'infrastructure', 
+      title: 'Water Treatment Facility', 
+      location: 'Mecca',
+      image: 'https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?auto=format&fit=crop&w=800&h=600&q=80'
+    },
   ];
 
   const filteredProjects = activeFilter === 'all' 
@@ -73,7 +95,19 @@ const Projects = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-strong transition-all duration-300 aspect-[4/3]"
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/80 to-accent" />
+              <div className="absolute inset-0">
+                <img 
+                  src={project.image} 
+                  alt={project.title} 
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    // Fallback for broken images
+                    e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xKSIvPjwvc3ZnPg==';
+                  }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/80 to-accent opacity-70" />
+              </div>
+              
               <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xKSIvPjwvc3ZnPg==')] opacity-30" />
               
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
