@@ -63,7 +63,7 @@ const Contact = () => {
           >
             <h3 className="text-2xl font-bold mb-6">{t('contact.info')}</h3>
             
-            <div className="space-y-6 mb-8">
+            <div className="space-y-6">
               {contactInfo.map((info, index) => (
                 <div key={index} className="flex items-center gap-4 group">
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-glow group-hover:scale-110 transition-transform">
@@ -83,19 +83,6 @@ const Contact = () => {
                   )}
                 </div>
               ))}
-            </div>
-
-            <div className="relative h-64 rounded-2xl overflow-hidden shadow-strong">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.29164445509!2d36.294914!3d33.5132111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e71f09f32db5%3A0x30d47f1e3df068db!2z2LPZiNix2YrYpyDYr9mF2LTZgiDYp9mE2LTYudmE2KfZhiDYtNin2LHYuSDYrdio2LHYqNmKINix2KfYqNi5INit2KfYsdipINiz2YXZitix2KfZhdmK2LPigK0!5e0!3m2!1sar!2s!4v1730000000000!5m2!1sar!2s"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Al-Maiz & Al-Nasser Location"
-              ></iframe>
             </div>
           </motion.div>
 

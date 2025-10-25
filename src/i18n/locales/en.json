@@ -108,7 +108,7 @@
     "message": "Your Message",
     "send": "Send Message",
     "info": "Contact Information",
-    "address": "Syria, Damascus, Al-Shaalan, Habrabi 4th Street, Samiramis Lane, Building No. 5, 2nd Floor",
+    "address": "Damascus, Syria",
     "success": "Message sent successfully!",
     "error": "Failed to send message. Please try again."
   },
