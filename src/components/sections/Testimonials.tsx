@@ -7,23 +7,24 @@ const Testimonials = () => {
   const { t } = useTranslation();
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
 
+  // Only Arabic testimonials
   const testimonials = [
     {
-      name: 'Ahmed Al-Rashid',
-      position: 'CEO, BuildTech Solutions',
-      content: 'Working with Al-Maiz & Al-Nasser transformed our approach to sustainable construction. Their materials exceeded our expectations in both quality and environmental impact.',
+      name: 'أحمد الراشد',
+      position: 'المالك، شركة البناء التقني',
+      content: 'التعامل مع شركة الميزر والناصر غير طريقة عملنا في البناء المستدام. المواد التي قدموها تجاوزت توقعاتنا من حيث الجودة والتأثير البيئي الإيجابي.',
       avatar: '👨‍💼',
     },
     {
-      name: 'Sara Al-Otaibi',
-      position: 'Project Manager, Green Developments',
-      content: 'The eco-friendly alternatives provided by this company have significantly reduced our carbon footprint while maintaining structural integrity. Highly recommended!',
+      name: 'سارة العتيبي',
+      position: 'مدير المشاريع، المشاريع الخضراء',
+      content: 'البدائل الصديقة للبيئة المقدمة من هذه الشركة ساعدتنا في تقليل بصمة الكربون بشكل كبير مع الحفاظ على متانة الهيكل. أنصح بها بشدة!',
       avatar: '👩‍💼',
     },
     {
-      name: 'Mohammed Al-Zahrani',
-      position: 'Director, Urban Infrastructure',
-      content: 'Outstanding products and exceptional service. Their team supported us throughout the entire project, ensuring smooth implementation of sustainable solutions.',
+      name: 'محمد الزهراني',
+      position: 'مدير، البنية التحتية الحضرية',
+      content: 'منتجات ممتازة وخدمة استثنائية. فريقهم دعمنا طوال المشروع بأكمله، مما ضمن تنفيذ حلول مستدامة بسلاسة.',
       avatar: '👨‍🔧',
     },
   ];

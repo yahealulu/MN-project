@@ -35,6 +35,7 @@ const Contact = () => {
   const contactInfo = [
     { icon: Mail, label: 'info@almaizalnasser.com' },
     { icon: Phone, label: '+963981861672', href: 'https://wa.me/963981861672' },
+    { icon: Phone, label: '00963951318707', href: 'https://wa.me/963951318707' },
     { icon: MapPin, label: t('contact.address') },
   ];
 
