@@ -56,7 +56,7 @@ const Navbar = () => {
             onClick={() => scrollToSection('#hero')}
             whileHover={{ scale: 1.05 }}
           >
-            <img src={logo} alt="Al-Maiz & Al-Nasser" className="h-16 w-auto" />
+            <img src={logo} alt="Al-maizr & Al-Nasser" className="h-16 w-auto" />
           </motion.div>
 
           {/* Desktop Navigation */}

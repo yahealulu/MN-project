@@ -35,7 +35,7 @@ const Footer = () => {
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6 }}
           >
-            <img src={logo} alt="Al-Maiz & Al-Nasser" className="h-17 w-auto mb-4" />
+            <img src={logo} alt="Al-maizr & Al-Nasser" className="h-17 w-auto mb-4" />
             <p className="text-muted-foreground text-sm leading-relaxed">
               {t('footer.description')}
             </p>
@@ -118,7 +118,7 @@ const Footer = () => {
           className="pt-8 border-t border-border text-center text-sm text-muted-foreground"
         >
           <p>
-            © {new Date().getFullYear()} Al-Maiz & Al-Nasser. {t('footer.rights')}
+            © {new Date().getFullYear()} Al-maizr & Al-Nasser. {t('footer.rights')}
           </p>
         </motion.div>
       </div>

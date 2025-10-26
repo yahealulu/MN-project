@@ -15,7 +15,7 @@
     "cta2": "Contact Us"
   },
   "about": {
-    "title": "About Al-Maiz & Al-Nasser",
+    "title": "About Al-maizr & Al-Nasser",
     "subtitle": "Leading the Fiber Glass Trading Industry",
     "description": "A leading company in fiberglass trading, an alternative to reinforced steel, which is characterized by its high lightness, corrosion resistance, and rust resistance, making it an ideal option for modern construction and long-term projects. We also specialize in aluminum trading and its various applications in construction and industrial fields, providing our customers with comprehensive solutions that combine quality, innovation, and sustainability.",
     "years": "Years of Excellence",
@@ -120,7 +120,7 @@
     "contact": "Contact",
     "contactNumbers": [
       { "number": "00963981861672", "name": "Nasser Hamadi" },
-      { "number": "00963951318707", "name": "Maizar Al-Sarab" }
+      { "number": "00963951318707", "name": "maizrar Al-Sarab" }
     ],
     "rights": "All rights reserved."
   }

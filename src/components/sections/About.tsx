@@ -77,7 +77,7 @@ const About = () => {
           >
             <img 
               src={aboutImage} 
-              alt="About Al-Maiz & Al-Nasser" 
+              alt="About Al-maizr & Al-Nasser" 
               className="w-full h-full object-cover"
               onError={(e) => {
                 // Fallback for broken images
